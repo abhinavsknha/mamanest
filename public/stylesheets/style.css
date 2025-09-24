@@ -1,0 +1,47 @@
+/* Navbar link hover */
+.nav-hover {
+  color: #343a40; /* dark text by default */
+  transition: color 0.3s, transform 0.3s; /* smooth transition */
+}
+
+.nav-hover:hover {
+  color: #EC4899;  /* pink on hover */
+  transform: translateY(-2px); /* subtle lift effect */
+}
+ /* features */
+.feature-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,.15);
+}
+
+
+
+/* Footer links */
+.footer-link {
+  color: #d9d9d9; /* greyish-white */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #EC4899; /* pink on hover */
+}
+
+/* Optional: social icons hover */
+.footer-social:hover {
+  color: #EC4899;
+}
+
+.footer-social {
+  transition: all 0.3s;
+}
+
+.footer-social:hover {
+  background-color: #EC4899; /* pink background on hover */
+  color: white;              /* icon stays white */
+  transform: translateY(-2px);
+}
